@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random nubre to int n everytime
- * it excutes, and prints it
- * return: always 0 (success)
+ * main - prints the last digit of the random
+ * number stored in the variable n
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
