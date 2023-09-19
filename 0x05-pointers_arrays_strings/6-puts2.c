@@ -16,10 +16,12 @@ void puts2(char *str)
 	{
 		i++;
 	}
-		for (j = 0; j < i; j += 2)
+		for (j = 0; j < i; j++)
 		{
-			printf("%d", str[j]);
-
+			if (j % 2 == 0)
+			{
+			_putchar(str[j]);
+			}
 		}
 	printf("\n");
 }
